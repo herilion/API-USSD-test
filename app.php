@@ -68,3 +68,9 @@ else if ($text == "1*3*1") {
     $response .= "Enter 1 to continue \n";
     $response .= "Enter 0 to cancel";
 }
+else if ($text == "1*3*1*1") {
+    $response = "END Your Table reservation for 6 has been booked";
+}
+else if ($text == "1*3*1*0") {
+    $response = "END Your Table reservation for 6 has been canceled";
+}
