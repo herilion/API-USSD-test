@@ -74,3 +74,9 @@ else if ($text == "1*3*1*1") {
 else if ($text == "1*3*1*0") {
     $response = "END Your Table reservation for 6 has been canceled";
 }
+// Menu for a user who enters "4" from the second menu above
+// Will be brought to this sixth menu screen
+else if ($text == "1*4") {
+    $response = "CON You are about to book a table for 8 \n";
+    $response .= "Please Enter 1 to confirm \n";
+}
