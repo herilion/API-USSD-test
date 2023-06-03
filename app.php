@@ -37,3 +37,10 @@ else if ($text == "1*1*1*1") {
 else if ($text == "1*1*1*0") {
     $response = "END Your Table reservation for 2 has been canceled";
 }
+
+// Menu for a user who selects "2" from the second menu above
+// Will be brought to this fourth menu screen
+else if ($text == "1*2") {
+    $response = "CON You are about to book a table for 4 \n";
+    $response .= "Please Enter 1 to confirm \n";
+}
