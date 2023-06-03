@@ -93,3 +93,7 @@ else if ($text == "1*4*1*1") {
 }else if ($text == "1*4*1*0") {
     $response = "END Your Table reservation for 8 has been canceled";
 }
+//echo response
+header('Content-type: text/plain');
+echo $response
+?>
