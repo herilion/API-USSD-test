@@ -17,3 +17,5 @@ else if ($text == "1") {
     $response .= "3. Table for 6 \n";
     $response .= "4. Table for 8 \n";
 }
+//Menu for a user who selects '1' from the second menu above
+// Will be brought to this third menu screen
