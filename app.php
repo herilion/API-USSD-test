@@ -19,3 +19,8 @@ else if ($text == "1") {
 }
 //Menu for a user who selects '1' from the second menu above
 // Will be brought to this third menu screen
+
+else if ($text == "1*1") {
+    $response = "CON You are about to book a table for 2 \n";
+    $response .= "Please Enter 1 to confirm \n";
+}
