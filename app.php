@@ -24,3 +24,8 @@ else if ($text == "1*1") {
     $response = "CON You are about to book a table for 2 \n";
     $response .= "Please Enter 1 to confirm \n";
 }
+
+else if ($text == "1*1*1") {
+    $response = "CON Table for 2 cost -N- 50,000.00 \n";
+    $response .= "Enter 1 to continue \n";
+    $response .= "Enter 0 to cancel";}
