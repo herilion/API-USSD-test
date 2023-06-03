@@ -80,3 +80,10 @@ else if ($text == "1*4") {
     $response = "CON You are about to book a table for 8 \n";
     $response .= "Please Enter 1 to confirm \n";
 }
+
+// Menu for a user who enters "1" from the sixth menu
+else if ($text == "1*4*1") {
+    $response = "CON Table for 8 cost -N- 250,000.00 \n";
+    $response .= "Enter 1 to continue \n";
+    $response .= "Enter 0 to cancel";
+}
