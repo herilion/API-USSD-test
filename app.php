@@ -44,3 +44,9 @@ else if ($text == "1*2") {
     $response = "CON You are about to book a table for 4 \n";
     $response .= "Please Enter 1 to confirm \n";
 }
+// Menu for a user who selects "1" from the fourth menu screen
+else if ($text == "1*2*1") {
+    $response = "CON Table for 4 cost -N- 150,000.00 \n";
+    $response .= "Enter 1 to continue \n";
+    $response .= "Enter 0 to cancel";
+}
